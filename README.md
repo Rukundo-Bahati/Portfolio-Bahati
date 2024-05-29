@@ -1,6 +1,8 @@
 Rukundo-Bahati- Portfolio 🌐 Live Demo Explore the live demonstration of the project:
 Rukundo-Bahati- Portfolio
 
+![demo](.github/README_ASSETS/case.png)
+
 📝 Description Rukundo-Bahati - Portfolio is a beautifully designed and fully functional portfolio
 website built with React.js and Three.js. It is fully responsive and works seamlessly across all
 devices.
