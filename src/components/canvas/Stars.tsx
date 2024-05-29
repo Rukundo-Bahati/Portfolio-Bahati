@@ -1,11 +1,12 @@
 import { useState, useRef, Suspense } from "react";
+import * as THREE from 'three';
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import { random } from "maath";
 import { TypedArray } from "three";
 
 const Stars = (props: any) => {
-  const ref = useRef<THREE.Points>();
+  const ref = useRef<THREE.Points>(null); // Add null as initial value
   const [sphere] = useState<TypedArray>(() =>
     random.inSphere(new Float32Array(5001), { radius: 1.2 })
   );
