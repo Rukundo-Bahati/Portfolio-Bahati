@@ -68,7 +68,6 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-<<<<<<< HEAD
 
       <button
         className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none m-3"
@@ -81,17 +80,10 @@ const Works = () => {
         href="../../../public/NEW-RESUME.pdf"
         className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none m-3"
         download="NEW-RESUME.pdf"
-      > Resume</a>
-=======
-   
-      <button
-  className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none"
-  onClick={() => window.open("https://github.com/Rukundo-Bahati?tab=repositories", "_blank")}
->
-  More
-</button>
-
->>>>>>> ded56146b4cf67ea3cb6c798b8a10702e2796308
+      >
+        {' '}
+        Resume
+      </a>
     </>
   );
 };
