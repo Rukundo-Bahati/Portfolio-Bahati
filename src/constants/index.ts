@@ -29,6 +29,7 @@ import {
   tesla,
   shopify,
   carrent,
+  // playlist,
   jobit,
   tripguide,
   threejs,
@@ -183,7 +184,7 @@ const testimonials: TTestimonial[] = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Bahati proved me wrong.",
-    name: "Sara Lee",
+    name: "Sara",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -191,7 +192,7 @@ const testimonials: TTestimonial[] = [
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Bahati does.",
-    name: "Chris Brown",
+    name: "Aime",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -199,7 +200,7 @@ const testimonials: TTestimonial[] = [
   {
     testimonial:
       "After Bahati optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Alice",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -227,6 +228,24 @@ const projects: TProject[] = [
     ],
     image: carrent,
     sourceCodeLink: "https://github.com/Rukundo-Bahati/Car-Rent",
+  },
+  {
+    name: "Mood-Playlist Generator",
+    description:
+      "Web-based platform that allows spotify users to fetch playlist by entering how you are feeling.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      
+      {
+        name: "TailwindCss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    sourceCodeLink: "https://playlist-generator-neon.vercel.app/",
   },
   {
     name: "Top Cafe",
