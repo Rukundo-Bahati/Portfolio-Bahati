@@ -29,7 +29,7 @@ import {
   tesla,
   shopify,
   carrent,
-  // playlist,
+  playlist,
   jobit,
   tripguide,
   threejs,
@@ -232,7 +232,7 @@ const projects: TProject[] = [
   {
     name: "Mood-Playlist Generator",
     description:
-      "Web-based platform that allows spotify users to fetch playlist by entering how you are feeling.",
+      "Web-based platform that allows spotify users to fetch playlist based on how they are feeling.",
     tags: [
       {
         name: "Nextjs",
@@ -244,7 +244,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: playlist,
     sourceCodeLink: "https://playlist-generator-neon.vercel.app/",
   },
   {
